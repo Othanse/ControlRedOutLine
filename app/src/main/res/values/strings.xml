@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ControlRedOutLine</string>
+    <string name="air_mode_val">air_mode_val</string>
+    <string name="air_mode_value_1">air_mode_value_1</string>
+    <string name="degree">degree</string>
+    <string name="air_mode_value_2">air_mode_value_2</string>
+    <string name="air_mode_value_3">air_mode_value_3</string>
+    <string name="air_mode_value_4">air_mode_value_4</string>
+    <string name="air_mode_value_5">air_mode_value_5</string>
+    <string name="air_wind_val">air_wind_val</string>
+    <string name="air_wind_count_value_1">wind_count1</string>
+    <string name="air_wind_count_value_2">wind_count2</string>
+    <string name="air_wind_count_value_3">wind_count3</string>
+    <string name="air_wind_count_value_4">wind_count4</string>
+    <string name="air_wind_dir">air_wind_dir</string>
+    <string name="air_wind_dir_value_1">air_wind_dir_value_1</string>
+    <string name="air_wind_dir_value_2">air_wind_dir_value_2</string>
+    <string name="air_wind_dir_value_3">air_wind_dir_value_3</string>
+    <string name="air_wind_auto_dir">air_wind_auto_dir</string>
+    <string name="air_wind_auto_energy">air_wind_auto_energy</string>
+    <string name="air_power_off">air_power_off</string>
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_air_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开关" />
+
+        <Button
+            android:id="@+id/btn_air_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模式" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_air_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn_air_up" />
+
+        <Button
+            android:id="@+id/btn_air_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn_air_down" />
+
+        <Button
+            android:id="@+id/btn_air_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn_air_auto" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_air_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn_air_count" />
+
+        <Button
+            android:id="@+id/btn_air_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn_air_direction" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/temp_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="temp_show" />
+
+        <TextView
+            android:id="@+id/text_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text_mode" />
+
+        <TextView
+            android:id="@+id/text_wind_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text_wind_speed" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/wind_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wind_dir" />
+
+        <TextView
+            android:id="@+id/wind_dir_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wind_dir_auto" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/image_cold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <ImageView
+            android:id="@+id/image_watted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <ImageView
+            android:id="@+id/image_supply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/image_heating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round" />
+    </LinearLayout>
+
+
+</LinearLayout>

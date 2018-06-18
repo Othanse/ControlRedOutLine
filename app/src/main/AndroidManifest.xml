@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="control.eagleweb.xyz.controlredoutline">
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <!--这个权限呢就是调用红外设备就不多说-->
+
+    <uses-feature android:name="android.hardware.ConsumerIrManager" />
+    <!--这个过滤器的作用主要是给应用市场提个醒 Android Market会根据uses-feature过滤所有你设备不支持的应用  再通俗点说就是没有ConsumerIrManager这个类的android设备 在应用市场上看不到此应用。（因为版本太低 下载下来也没用）-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
